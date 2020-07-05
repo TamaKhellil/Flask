@@ -1,0 +1,13 @@
+Please follow these steps:
+
+1- set your database configuration as 'connect_string' in the 'config.yml'. Examples can be found here: https://docs.sqlalchemy.org/en/13/core/engines.html
+2- run the script 'import_data.py' in order to transfer the data from a csv file to a SQL database. If you want to use an other CSV file than the provided, you can configure that in the configuration file as    well
+3- include the environment variable for the Flask app:
+   >set FLASK_APP=show_data.py
+4- run the app:
+   >flask run
+5- copy the given path in the browser to open the app
+
+Remarks:
+- The task was done with Python 3.6.0
+- The task was run in Windows 10

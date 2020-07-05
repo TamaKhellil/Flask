@@ -1,0 +1,8 @@
+#This file contains the configuration for the script 'import_data.py' and 'show_data.py'
+
+connect_string: "postgresql://user:password@localhost:path"
+file_name: "task_data.csv"
+table_name: "task_data"
+log_data_table: "log_data"
+
+
